@@ -40,16 +40,38 @@ nav {
 /* MAIN CONTENT */
 section {
     display: flex;
-    flex-basis: 80%;
+    flex-basis: 90%;
     width: 100%;
     box-sizing: border-box;
     padding: 5rem 0rem;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: grey;
 }
-
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 20%;
+}
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 60%;
+}
 .smashMe {
     display: flex;
     flex-direction: column;
@@ -63,10 +85,19 @@ section {
     font-size: 200%;
 }
 
-/* FOOTER */
-footer {
+.counter {
     display: flex;
-    flex-basis: 10%;
-    width: 100%;
-    background-color: whitesmoke;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 20%;
 }
+
+.textPannel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem; }
