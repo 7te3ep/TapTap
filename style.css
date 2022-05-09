@@ -64,13 +64,14 @@ section {
     border-radius: 1rem;
     background-color: white;
     padding: 1rem;
+    margin-top: 2rem;
 }
 .button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 60%;
+    flex-basis: 40%;
 }
 .smashMe {
     display: flex;
@@ -88,9 +89,9 @@ section {
 .counter {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    flex-basis: 20%;
+    flex-basis: 30%;
 }
 
 .textPannel {
@@ -101,3 +102,32 @@ section {
     border-radius: 1rem;
     background-color: white;
     padding: 1rem; }
+
+    .start {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        flex-basis: 10%;
+    }
+    .startbutton {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    width: fit-content;
+    background-color: lightgreen;
+    border-radius: 1rem;
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    border: solid 0.2rem black;
+    box-shadow: rgb(94, 94, 94) 1rem 1rem 1rem;
+    transition: 0.1s all;
+    }
+
+    .startbutton:active {
+        box-shadow: none;
+        background-color: rgb(127, 143, 127);
+    }
