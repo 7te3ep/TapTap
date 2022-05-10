@@ -12,7 +12,6 @@ function buttonSmashed() {
     if (gamestatus == true) {
         if (timerOn == false) {
             timerOn = true;
-            i = 10;
             Score ++;
             textPannel.textContent = "Your score is " + Score;
             
@@ -34,7 +33,7 @@ function TIMER(){
                 textPannel.textContent = 'Time Finished ' + Score + ' is your final score.'
                 gamestatus = false;
                 startButton.textContent = 'Start'
-    startButton.style.backgroundColor = 'lightgreen'
+                startButton.style.backgroundColor = 'lightgreen'
                 return;
             }
             }          
@@ -42,12 +41,14 @@ function TIMER(){
     }  
 
 function gameStart() {
-    if (gamestatus == false)
+    if (gamestatus == false) {
         Score = 0;
         i = 10;
         gamestatus = true;
         startButton.textContent = 'Playing'
         startButton.style.backgroundColor = 'orange'
         TIMER()
+    }
+        
 }
 
